@@ -152,10 +152,11 @@ img {
 
 .hero {
         
-    
+    background-image: url('../images/Header-img-1.jpg');
+    background:rgba(47, 48, 58, 0.8);;
     height: 600px;
     margin: 0 auto;
-    background: rgba(47, 48, 58, 0.8);
+    
     
     
 }
@@ -407,8 +408,21 @@ img {
     margin-right:30px;
     
 }
+.client-item {
+    width: 170px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
 .our-client:last-child {
     margin-right: 0px;
+}
+.client-logo:hover {
+ background:var(--accent-color);
 }
 
 /* footer */
