@@ -506,6 +506,9 @@ img {
     padding: 0;
     justify-content: space-between;
 }
+.social-logo:hover {
+    background:var(--accent-color);
+}
 .copyright {
     width: 310px;
     padding-bottom:20px;
