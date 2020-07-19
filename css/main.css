@@ -654,11 +654,11 @@ img {
     display: block;
 }
 .title {
-    min-width: 322px;
+    min-width: 320px;
     margin-top: 20px;
     margin-bottom: 4px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -669,9 +669,9 @@ img {
     width: 322px;
     height: 30px;
     margin: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 20px;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
