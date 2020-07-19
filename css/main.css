@@ -129,7 +129,7 @@ img {
 .site-nav-contacts {
     display: flex;
     padding-top: 32px;
-    padding-bottom: 22px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -138,14 +138,34 @@ img {
 
 }
 .e-mail {
-    width: 135px;
+    display: inline-flex
     height: 16px;
     
+}
+.e-mail::before {
+    content: "";
+    width: 16px;
+    height: 11px;
+    display: inline-flex;
+    margin-right: 10px;
+    background-image: url('../images/logo/envelope-11.png');
     
+}
+.e-mail::before:focus,
+.e-mail::before:hover {
+    color:blue;
 }
 .tel {
     width: 142px;
-    height: 15.8px;
+    height: 16px;
+}
+.tel::before {
+    content: "";
+    width: 10px;
+    height: 15px;
+    display: inline-flex;
+    margin-right: 10px;
+    background-image: url('..//images/logo/smartphone.svg');
 }
 
 /* .hero-section */
@@ -569,9 +589,6 @@ img {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
-.sighn {
-    
 }
 .text-sighn {
 
