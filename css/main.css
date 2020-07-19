@@ -151,10 +151,7 @@ img {
     background-image: url('../images/logo/envelope-11.png');
     
 }
-.e-mail::before:focus,
-.e-mail::before:hover {
-    color:blue;
-}
+
 .tel {
     width: 142px;
     height: 16px;
@@ -244,15 +241,35 @@ img {
     display: flex;
     justify-content: space-between;
     padding-left: 0;
+    list-style: none;
     
 }
-
-.features-item {
+.features-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:  #F5F4FA;;
+}
+.features-item:nth-child(1)::before {
+    background-image: url('../images/logo/antenna-icon.png');
+}
+.features-item:nth-child(2)::before {
+    background-image: url('../images/logo/clock-icon.png');
+}
+.features-item:nth-child(3)::before {
+    background-image: url('../images/logo/diagram-icon.png');
+}
+.features-item:nth-child(4)::before {
+    background-image: url('../images/logo/astronaut-icon.png');
+}
+/* .features-item {
     width: 270px;
     height: 251px;
     display: block;
     margin-right: 30px;
-}
+} */
 
 .advantages-img {
 
@@ -260,11 +277,11 @@ img {
     background: #F5F4FA;
     border-radius: 4px;
     
-}
+/* }
 .advantages-img:hover,
 .advantages-img:focus {
     background-color:var(--accent-color);
-}
+} */
 
 .section-title {
     margin-top: 30px;
