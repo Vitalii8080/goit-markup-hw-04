@@ -148,7 +148,7 @@ img {
     height: 11px;
     display: inline-flex;
     margin-right: 10px;
-    background-image: url('../images/logo/envelope-11.png');
+    background-image: url('../images/logo/envelope-1.svg');
     
 }
 
@@ -164,6 +164,7 @@ img {
     margin-right: 10px;
     background-image: url('..//images/logo/smartphone.svg');
 }
+
 
 /* .hero-section */
 
@@ -403,18 +404,34 @@ img {
     color: #757575;
     margin-top: 10px;
 
-}
-.social-icon {
+
+
+.social-network-list {
     display: flex;
-    justify-content: space-around;
+    padding-left: 0px;
+    justify-content: center;
     align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+.social-icons .item + .item {
+    margin-left: 10px;
 }
-.social:hover {
-    background-color:#2196F3;;
+.background-social-network {
+    fill: var(--secondary-color);
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .background-social-network:hover,
+.background-social-network:focus {
+  fill: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
+
     
 }
 /* client-section */
