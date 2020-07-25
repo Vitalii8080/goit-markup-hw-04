@@ -8,7 +8,7 @@
   
     --shadow-color: rgba(0, 0, 0, 0.15);
     --text-color: rgba(0, 0, 0, 0.8);
-    --background-color: #FFFFFF;
+    --primary-white-color: #FFFFFF;
   }
 body {
      
@@ -405,15 +405,17 @@ img {
     margin-top: 10px;
 
 
-
+}
 .social-network-list {
     display: flex;
     padding-left: 0px;
+    list-style: none;
     justify-content: center;
     align-items: center;
     margin-top: 16px;
     margin-bottom: 24px;
-  }
+}
+
 .social-icons .item + .item {
     margin-left: 10px;
 }
@@ -426,7 +428,7 @@ img {
     align-items: center;
     border-radius: 50%;
   }
-  .background-social-network:hover,
+.background-social-network:hover,
 .background-social-network:focus {
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -507,7 +509,7 @@ img {
 }
 .logo-white {
     color: #FFFFFF;
-
+ }
 .footer-nav {
     margin-right: 70px;
 }
@@ -648,7 +650,7 @@ img {
     width: 24px;
     height: 24px;
     margin-left: 10px;
-    background-image:url("..//images/logo/icon-send1.png");
+    background-image:url("..//images/logo/icon-send.svg");
     background-size: contain;
     
 }
