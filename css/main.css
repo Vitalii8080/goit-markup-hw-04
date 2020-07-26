@@ -348,7 +348,7 @@ img {
 
 
 .team-list .item + .item {
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .team-list > .item {
@@ -364,24 +364,26 @@ img {
 
 .social-network-list {
     display: flex;
-    padding-left: 0px;
-    justify-content: center;
     margin-top: 16px;
     margin-bottom: 24px;
+    padding-right: 32px;
+    justify-content: space-between;
+    padding-left: 32px;
 }
 
 .social-icons .item + .item {
     margin-left: 10px;
 }
 .background-social-network {
-    fill: var(--secondary-color);
-    width: 44px;
-    height: 44px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-  }
+  fill: var(--secondary-color);
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
 .background-social-network:hover,
 .background-social-network:focus {
   background-color: #FFFFFF;
