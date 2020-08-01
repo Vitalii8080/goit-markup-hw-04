@@ -131,7 +131,7 @@ img {
   font-weight: 500;
 }
 
-.site-nav .link.current {
+.site-nav .link:hover {
   color: var(--accent-color);
 }
 
