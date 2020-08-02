@@ -1,6 +1,7 @@
 
 :root {
     --title-text-color: #212121;
+    --primary-white-color: #FFFFFF;
     --accent-color: #18a0fb;
     --text-shadow: 0 0 5px #555;
     --font-logo: 'Comfortaa', 'Segoe UI', sans-serif;
@@ -8,7 +9,7 @@
   
     --shadow-color: rgba(0, 0, 0, 0.15);
     --text-color: rgba(0, 0, 0, 0.8);
-    --primary-white-color: #FFFFFF;
+    
     --secondary-color:#afb1b8;
     --accent-grey: #f5f4fa;
   }
@@ -22,7 +23,7 @@
   }
 a {
     text-decoration: none;
-    color:inherit;
+    color:#757575;
 }
 .list {
     list-style: none;
@@ -137,12 +138,12 @@ img {
 
 
 .icon-header {
-  fill: currentColor;
+  fill:#757575;
   margin-right: 10px;
 }
 
 .icon-header:hover {
-  fill: var(--accent-color);
+  fill:  #18a0fb;
 }
 
 
@@ -343,7 +344,7 @@ img {
 
 .background-social-network:hover,
 .background-social-network:focus {
-  background-color: #FFFFFF;
+  fill: #FFFFFF;
   background-color: var(--accent-color);
 }
 
@@ -382,7 +383,7 @@ img {
   border-radius: 4px;
   width: 170px;
   height: 90px;
-  color: var(--secondary-color);
+  fill: var(--secondary-color);
 }
 
 .clients-logos:hover,
@@ -566,6 +567,7 @@ img {
 .filter-4:hover,
 .filter-5:hover {
     background: #2196F3;
+    color:#FFFFFF;
 }
 
 
