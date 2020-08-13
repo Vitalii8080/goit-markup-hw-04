@@ -1,5 +1,6 @@
 
 :root {
+    --primary-text-color: #757575;
     --title-text-color: #212121;
     --primary-white-color: #FFFFFF;
     --accent-color: #18a0fb;
@@ -23,7 +24,7 @@
   }
 a {
     text-decoration: none;
-    color:#757575;
+    color:inherit;
 }
 .list {
     list-style: none;
@@ -138,7 +139,7 @@ img {
 
 
 .icon-header {
-  fill:#757575;
+  fill:currentColor;
   margin-right: 10px;
 }
 
