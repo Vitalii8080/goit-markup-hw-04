@@ -123,23 +123,21 @@ img {
   margin-left: 52px;
 }
 
-.site-nav .link {
+.nav-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
   color: var(--title-text-color);
-
   font-weight: 500;
 }
-.site-nav .link.current {
+.nav-link:hover, .nav-link:focus, .current {
   color: var(--accent-color);
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
+  outline: none;
+ }
+ .address .link:hover,
+ .address .link:focus {
+   color: var(--accent-color);
+ }
 
 
 
@@ -153,10 +151,6 @@ img {
 }
 
 
-.address .link:hover,
-.address .link:focus {
-  color: var(--accent-color);
-}
 
 
 /* .hero-section */
